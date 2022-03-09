@@ -3,7 +3,7 @@
 	"name": "obsidian-code",
 	"displayName": "obsidian-code",
 	"description": "reveal current editing file in obsidian",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.65.0"
 	},
@@ -19,7 +19,7 @@
 		"commands": [
 			{
 				"command": "obsidian-code.openObsidian",
-				"title": "open file with obsidian"
+				"title": "obsidian code: open file with obsidian"
 			}
 		],
 		"keybindings": [
