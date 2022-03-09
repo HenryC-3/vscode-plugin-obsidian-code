@@ -1,0 +1,59 @@
+{
+	"name": "obsidian-code",
+	"displayName": "obsidian-code",
+	"description": "",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.65.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:obsidian-code.openObsidian"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "obsidian-code.openObsidian",
+				"title": "open file with obsidian"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "obsidian-code.openObsidian",
+				"key": "ctrl+alt+o",
+				"mac": "cmd+alt+o"
+			}
+		],
+		"configuration": [
+			{
+				"title": "obsidian-code",
+				"properties": {
+					"obsidian-code.vaultName": {
+						"type": "string",
+						"default": "",
+						"description": "vault name that your files stored"
+					}
+				}
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.65.0",
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.0.0",
+		"@types/node": "14.x",
+		"eslint": "^8.6.0",
+		"glob": "^7.2.0",
+		"mocha": "^9.1.3",
+		"typescript": "^4.5.4",
+		"@vscode/test-electron": "^2.0.3"
+	}
+}
