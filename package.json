@@ -1,7 +1,7 @@
 {
 	"name": "obsidian-code",
 	"displayName": "obsidian-code",
-	"description": "",
+	"description": "reveal current editing file in obsidian",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.65.0"
