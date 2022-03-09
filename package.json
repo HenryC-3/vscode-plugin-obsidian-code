@@ -9,6 +9,7 @@
 	"categories": [
 		"Other"
 	],
+	"repository": "https://github.com/HenryC-3/vscode.plugin.obsidian-code.git",
 	"activationEvents": [
 		"onCommand:obsidian-code.openObsidian"
 	],
