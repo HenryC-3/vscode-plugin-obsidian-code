@@ -1,4 +1,5 @@
 {
+	"publisher": "HenryHeDiff",
 	"name": "obsidian-code",
 	"displayName": "obsidian-code",
 	"description": "reveal current editing file in obsidian",
