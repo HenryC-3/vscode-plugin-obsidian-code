@@ -12,7 +12,7 @@ Reveal current active file in [Obsidian](https://obsidian.md/) vault.
 
 Vault name can be configured by following steps
 
-1. go to plugin settings ![alt](assets/b103b3c42564ba6ebc6bf8001f87d3f6e6e07eb9701256c47388f5ccf57ec63f.png)
+1. go to plugin settings ![](assets/b103b3c42564ba6ebc6bf8001f87d3f6e6e07eb9701256c47388f5ccf57ec63f.png)
 2. fill in the vault name
 
 ## Usage
