@@ -4,7 +4,7 @@
 
 Reveal current active file in [Obsidian](https://obsidian.md/) vault.
 
-![video_showcase](assets/obsidian-code-plugin-showcase.mov)
+![](assets/obsidian-code-plugin-showcase_AdobeExpress.gif)
 
 ## Settings
 
