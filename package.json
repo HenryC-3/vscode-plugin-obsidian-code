@@ -3,7 +3,7 @@
 	"name": "obsidian-code",
 	"displayName": "obsidian-code",
 	"description": "reveal current editing file in obsidian",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"engines": {
 		"vscode": "^1.65.0"
 	},
