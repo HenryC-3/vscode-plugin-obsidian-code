@@ -19,3 +19,7 @@ Vault name can be configured by following steps
 
 -   use the command palette execute the command `obsidian code: open file with obsidian`
 -   use the default shortcut `cmd+alt+o`
+
+## Thanks
+
+-   [Huyz](https://github.com/huyz)
