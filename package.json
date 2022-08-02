@@ -37,7 +37,7 @@
 					"obsidian-code.vaultName": {
 						"type": "string",
 						"default": "",
-						"description": "vault name that your files stored"
+						"description": "default vault name"
 					}
 				}
 			}
